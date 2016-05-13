@@ -318,19 +318,19 @@ module ActiveRecord
       # Starts a database transaction.
       # @override
       def begin_db_transaction
-        @connection.begin
+        #@connection.begin
       end
 
       # Commits the current database transaction.
       # @override
       def commit_db_transaction
-        @connection.commit
+        #@connection.commit
       end
 
       # Rolls back the current database transaction.
       # @override
       def rollback_db_transaction
-        @connection.rollback
+        #@connection.rollback
       end
 
       # Starts a database transaction.
