@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |gem|
-  gem.name = 'activerecord-jdbc-adapter'
+  gem.name = 'activerecord-jdbc-adapter-pplet'
   gem.platform = 'java'
 
   path = File.expand_path('lib/arjdbc/version.rb', File.dirname(__FILE__))
